@@ -10,8 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: Georgia, serif;
-  font: 100%/1.3;
+  font: normal 100%/1.3 Georgia, serif;
 }
 
 *, *::before, *::after {
@@ -22,7 +21,7 @@ body {
   margin: 0;
 }
 
-img {
+.img-flex {
   width: 100%;
   display: block;
 }
@@ -51,10 +50,6 @@ figcaption {
   html {
     font-size: 110%;
     line-height: 1.4;
-  }
-
-  .img-flex {
-    display: flex;
   }
 
   .dimetrodon {
